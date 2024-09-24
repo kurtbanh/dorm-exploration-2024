@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;  /* Full black background */
+    color: #fff;  /* White text for readability */
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #fff;  /* White heading */
+}
+
+p {
+    color: #ccc;  /* Slightly dimmed white for paragraph text */
+}
+
+#sketch-container {
+    margin: 20px auto;
+    max-width: 90vw;
+    height: 50vh;
+    border: 2px solid #fff;  /* White border around sketch container */
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1);
+}
+
+.description {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.75);  /* Dark box for description */
+    color: #fff;  /* White text for descriptions */
+    padding: 10px;
+    border-radius: 5px;
+    display: none;
+    font-size: 0.9rem;
+    z-index: 10;
+}
+
+.button-container {
+    margin: 20px 0;
+}
+
+button {
+    background-color: #222;  /* Dark button background */
+    color: #fff;  /* White button text */
+    border: 2px solid #fff;  /* White border */
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #444;  /* Slightly lighter on hover */
+}
+
+@media (max-width: 768px) {
+    #sketch-container {
+        height: 40vh;
+    }
+}
+
+@media (max-width: 480px) {
+    #sketch-container {
+        height: 30vh;
+    }
+}
